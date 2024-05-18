@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  
+    <title>Frontend Mentor | Contact form</title>
+</head>
+<body>
+
+        <section class="form-wrapper">
+            <h1>Contact Us</h1>
+            <form novalidate id="form" method="post">
+                <div class="form-control">
+                    <label for="fname">First Name <span class="asterisk">*</span></label> <br>
+                    <input type="text" id="fname" name="lname"  required>
+                    <span class="errTxt">this field is required</span>
+                </div>
+                <div class="form-control">
+                    <label for="lname">Last Name <span class="asterisk">*</span></label> <br>
+                    <input type="text" id="lname" name="lname" required>
+                    <span class="errTxt">this field is required</span>
+                </div>
+                <div class="form-control">
+                    <label for="email">Email Address <span class="asterisk">*</span></label> <br>
+                    <input type="email" id="email" name="email" required>
+                    <span class="errTxt">this field is required</span>
+                </div>
+                <div class="form-control">
+                    <label for="option">Query Type <span class="asterisk">*</span></label> <br>
+                    <div  class="query-wrapper">
+                        <div class="option">
+                        <input type="radio" id="query1"  name="options"  required> 
+                         <span>General Enquiry</span>
+                        </div>
+                    
+                        <div class="option">
+                        <input type="radio" id="query2" name="options" >  
+                        <span>Support Request</span>
+                        </div>
+                    </div>
+                    <span class="errTxt">this field is required</span>
+                </div>
+                <div class="form-control">
+                    <label for="message">Message <span class="asterisk">*</span></label> <br>
+                    <textarea rows="3" name="message" id="message" required> </textarea>
+
+                    <span class="errTxt">this  is required</span>
+                </div>
+
+
+                <div class="form-control">
+
+                    <div class="consent-wrapper">
+                     <input type="checkbox" name="consent" id="consent" required> 
+                     <label for="agree" style="cursor: pointer;">I consent to being contacted by the team
+                           <span class="asterisk">*</span>
+                     </label>
+
+                      </div>
+                    <span class="errTxt">this field is required</span>
+                </div>
+
+                  <button id="submitBtn" type="submit">Submit</button>
+            </form>
+
+        </section>
+
+        <div class="toast">
+            <h2>Message Sent!</h2>
+            <p>Thanks for completing the form. We'll be in touch soon!</p>
+        </div>
+   
+    
+   <script src="script.js"></script>
+</body>
+</html>
