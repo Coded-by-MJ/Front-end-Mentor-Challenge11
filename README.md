@@ -16,8 +16,8 @@ This is a solution to the [Multi-step form challenge on Frontend Mentor](https:/
 
 ### Links
 
-- Solution URL: [Click to view Solution](https://www.frontendmentor.io/solutions/responsive-multistep-form-page-CcFKSaxcWY)
-- Live Site URL: [Click to view Live Site](https://coded-by-mj.github.io/Front-end-Mentor-Challenge10/)
+- Solution URL: [Click to view Solution](https://www.frontendmentor.io/solutions/contact-form-validation-using-jquery--ig42RHSZf)
+- Live Site URL: [Click to view Live Site](https://coded-by-mj.github.io/Front-end-Mentor-Challenge11/)
 
 
 
